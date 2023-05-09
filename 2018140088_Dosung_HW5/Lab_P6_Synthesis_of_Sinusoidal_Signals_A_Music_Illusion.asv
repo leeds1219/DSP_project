@@ -1,0 +1,20 @@
+% 4. A Musical Illusion
+for i = 1:9
+    
+C4 = key2note(40,2,8000);
+C5 = key2note(48,2,8000);
+C6 = key2note(56,2,8000);
+C3 = key2note(32,2,8000);
+C2 = key2note(24,2,8000);
+
+C = C2+C3+C4+C5+C6;
+
+D4 = key2note(42,2,8000);
+D5 = key2note(50,2,8000);
+D6 = key2note(58,2,8000);
+D3 = key2note(34,2,8000);
+D2 = key2note(26,2,8000);
+
+D = D2+D3+D4+D5+D6;
+
+C_major_scale = cat(2,C,D);
