@@ -41,13 +41,13 @@ imshow(chest)
 title('original')
 
 subplot(2,2,2)
-imshow(transpose(xx_0))
+imshow(transpose(xx_0), [])
 title('x edge')
 
 subplot(2,2,3)
-imshow(yy_0)
+imshow(yy_0, [])
 title('y edge')
 
 subplot(2,2,4)
-imshow(transpose(xx_0)+yy_0)
+imshow(transpose(xx_0)+yy_0, [])
 title('x and y edge')
